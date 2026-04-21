@@ -1,9 +1,10 @@
 import './Header.css'
+import { Titulo } from './Titulo';
 
 export const Header  = () => {
   return(
     <div className='header'>
-      Dio Bank
+    <Titulo />
     </div>
   )
 }
